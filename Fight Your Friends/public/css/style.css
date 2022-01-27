@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Times', serif;
+}
+
+body {
+  -webkit-user-select: none;
+   -moz-user-select: -moz-none;
+    -ms-user-select: none;
+        user-select: none;
+    background-color: rgb(1, 0, 5);
+    margin: 0;
+}
