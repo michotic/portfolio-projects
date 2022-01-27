@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <style>
+        color {
+            background-color: rgb(245, 100, 16);
+        }
+
+        #canvas-container {
+            width: 100%;
+            text-align: center;
+        }
+
+        canvas {
+            padding: 0;
+            margin: auto;
+            display: block;
+            width: 960px;
+            height: 600px;
+            position: relative;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgb(15, 98, 112);
+        }
+
+        body {
+            background-color: rgb(26, 205, 236);
+        }
+
+        h1 {
+            color: rgb(255, 255, 255);
+            font-family: 'Helvetica Neue', sans-serif;
+            font-size: 64px;
+            font-weight: bold;
+            letter-spacing: -1px;
+            line-height: 1;
+            text-align: center;
+        }
+
+
+        h2 {
+            color: rgb(255, 255, 255);
+            font-family: 'Open Sans', sans-serif;
+            font-size: 32px;
+            font-weight: 300;
+            line-height: 1px;
+            margin: 8 0px;
+            text-align: center;
+        }
+
+
+        p {
+            color: #685206;
+            font-family: 'Helvetica Neue', sans-serif;
+            font-size: 14px;
+            line-height: 24px;
+            margin: 0 0 24px;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    </style>
+
+    <title>Try to Survive</title>
+    <meta name="Nothing" content="Experiment">
+    <meta name="Michael Taylor" content="SitePoint">
+</head>
+
+<body>
+    <div>
+        <h1>WASD to move!</h1>
+        <h2>collect as many green bits as possible!</h2>
+    </div>
+    <div id="canvas-container">
+        <canvas id="canvas" style="border-radius: 48px; border:8px solid rgb(255, 255, 255)"></canvas>
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>
