@@ -1,2 +1,2 @@
-Simple chase game in vanilla JS \n
+Simple chase game in vanilla JS \
 Open "index.html" to run
